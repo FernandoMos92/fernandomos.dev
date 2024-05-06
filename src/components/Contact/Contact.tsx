@@ -1,12 +1,9 @@
-import { Container } from '@/Style/main'
 import React from 'react'
 
 function Contact() {
-return (
-    <Container>
-        Contact
-    </Container>
-)
+  return (
+    <div>Contact</div>
+  )
 }
 
 export default Contact

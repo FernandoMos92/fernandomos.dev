@@ -1,13 +1,9 @@
-import React from 'react';
-import { Container } from '@/Style/main';
+import React from 'react'
 
 function Experience() {
-return (
-    <Container>
-        Experience
-    </Container>
-)
+  return (
+    <div>Experience</div>
+  )
 }
-
 
 export default Experience
