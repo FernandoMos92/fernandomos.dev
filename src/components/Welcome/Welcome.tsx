@@ -91,6 +91,12 @@ function ContactModal({open = false, close}: ContactModalProps) {
                             <ArrowOutwardIcon sx={{width: '20px', height: '20px'}}/>
                         </Tooltip>
                     </Link>
+                        <Image
+                            src="/qrcode.png"
+                            alt="QR Code for LinkedIn"
+                            width={150}
+                            height={200}
+                        />
                 </Typography>
             </Box>
         </Dialog>

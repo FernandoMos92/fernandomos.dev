@@ -1,4 +1,4 @@
-"use client";
+'use client'
 import About from "@/components/About/About";
 import Blog from "@/components/Blog/Blog";
 import Contact from "@/components/Contact/Contact";
@@ -14,7 +14,7 @@ export default function Home() {
       case 0:
         return <Welcome />
       case 1:
-        return <Blog />
+        return <Blog /> 
       case 2:
         return <About />
       case 3:
